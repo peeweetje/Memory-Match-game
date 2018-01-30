@@ -1,0 +1,10 @@
+table, td {
+    border: 3px solid rgb(29, 171, 214);
+}
+
+td{
+    width:100px;
+    height:100px;
+    text-align:center;
+    background: linear-gradient(rgba(146, 199, 197, 0.3), rgba(25, 80, 102, 0.9));
+}
