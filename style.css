@@ -1,10 +1,11 @@
 table, td {
     border: 3px solid rgb(29, 171, 214);
+    box-shadow: 0px 0px 10px 3px rgba(72, 193, 223, 0.8);
 }
 
 td{
     width:100px;
     height:100px;
     text-align:center;
-    background: linear-gradient(rgba(146, 199, 197, 0.3), rgba(25, 80, 102, 0.9));
+    background: linear-gradient(rgba(153, 226, 231, 0.3), rgba(25, 171, 182, 0.9));
 }
