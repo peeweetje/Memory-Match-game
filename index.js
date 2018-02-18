@@ -27,7 +27,7 @@ function setUp(){
     }
     cell.addEventListener("mouseenter",function(){
         if(this.completed == false && this.clicked == false)
-            this.style.background = "blue";
+            this.style.background = "lightblue";
     });
 
     cell.addEventListener("mouseleave",function(){
