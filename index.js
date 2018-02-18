@@ -25,4 +25,18 @@ function setUp(){
         cell.clicked = false;
         cell.value = answers[i];
     }
+    cell.addEventListener("mouseenter",function(){
+        if(this.completed == false && this.clicked == false)
+            this.style.background = "blue";
+    });
+
+    cell.addEventListener("mouseleave",function(){
+        if(this.completed == false && this.clicked == false)
+            this.style.background = "aquablue";
+    });
+
+    cell.addEventListener('click',function(){
+
+
+    });
 }
