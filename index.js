@@ -110,5 +110,14 @@ function setUpGrid() {
         }
       }
     });
+    document.addEventListener("keydown", function(event) {
+      if (event.key > 0 && event.key < 10) {
+        grid[event.key - 1].click();
+      }
+    });
+
+    document.getElementById("restart").addEventListener("click", function() {
+      location.reload();
+    });
   }
 }
